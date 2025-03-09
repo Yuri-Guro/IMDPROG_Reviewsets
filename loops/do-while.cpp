@@ -8,7 +8,7 @@ int main(){
         cout << "How many meows? ";
         cin >> n;
         if (n <= 10){
-            for (i = 1; i <=10; i++){
+            for (i = 1; i <= n; i++){
                 cout << "Meow" << endl;
             }
         }
@@ -18,6 +18,5 @@ int main(){
         }
     }
     while(n <= 10);
-    return 0;
-    
+    return 0;  
 }
