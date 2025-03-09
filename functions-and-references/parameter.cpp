@@ -13,14 +13,14 @@ int cAge(string name, int age){
 }
 
 int main(){
-    cName("Whiskers");
-    cName("Mittens");
-    cName("Fluffy");
+    cName("Toothless");
+    cName("Bebeng");
+    cName("Spot");
     cName("Amouri");
     
-    cAge("Whiskers", 3);
-    cAge("Mittens", 5);
-    cAge("Fluffy", 2);
+    cAge("Toothless", 3);
+    cAge("Bebeng", 5);
+    cAge("Spot", 2);
     cAge("Amouri", 4);
     return 0;
 }
